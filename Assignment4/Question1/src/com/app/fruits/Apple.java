@@ -1,0 +1,25 @@
+package com.app.fruits;
+
+public class Apple extends Fruit {
+
+	public Apple() {
+		this("","",0.0,true);
+
+	}
+	
+	public Apple(String name, String color, double weight, boolean isFresh) {
+		super(name, color, weight, isFresh);
+	}
+	public void accept() {
+		super.accept();
+	}
+	public void display() {
+		super.display();
+		this.taste();
+	}
+	
+	public String taste() {
+		return "sweet n sour";
+	}
+	
+}

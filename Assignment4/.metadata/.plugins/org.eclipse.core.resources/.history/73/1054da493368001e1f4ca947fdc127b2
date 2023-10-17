@@ -1,0 +1,18 @@
+package com.app.fruits;
+
+import java.util.Scanner;
+
+public class FruitBasket {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		int baskSize;
+		
+		System.out.println("Enter size of fruit basket = ");
+		baskSize=sc.nextInt();
+		
+		Fruit basket[]=new Fruit(baskSize);
+
+	}
+
+}
