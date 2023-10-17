@@ -1,0 +1,25 @@
+package com.company;
+
+public class BaseplusCommissionEmployee extends CommissionEmployee {
+	private double baseSalary;
+
+	public BaseplusCommissionEmployee(String firstName, String lastName, String ssn, double commissionRate,
+			double grossSales,double baseSalary) {
+		super(firstName, lastName, ssn, commissionRate, grossSales);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public String toString() {
+		return "BaseplusCommissionEmployee [baseSalary=" + baseSalary + "]";
+	}
+	@Override
+	public double calculations() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	
+	
+	
+
+}

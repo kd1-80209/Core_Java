@@ -1,0 +1,36 @@
+package com.company;
+
+public class Tester {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Employee e1=new Employe();
+		e1.accept();
+		e1.display();
+		e1.calculations();
+		
+		Employee e1=new BaseplusCommissionEmployee();
+		e1.accept();
+		e1.display();
+		e1.calculations();
+		
+		Employee e1=new BaseplusCommissionEmployee();
+		e1.accept();
+		e1.display();
+		e1.calculations();
+		
+		Employee e1=new BaseplusCommissionEmployee();
+		e1.accept();
+		e1.display();
+		e1.calculations();
+		
+		Employee e1=new BaseplusCommissionEmployee();
+		e1.accept();
+		e1.display();
+		e1.calculations();
+		
+		
+
+	}
+
+}

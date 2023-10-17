@@ -1,0 +1,25 @@
+package com.company;
+
+public class HourlyEmployee extends Employee{
+	private double wages;
+	private double hours;
+	
+	public HourlyEmployee(String firstName, String lastName, String ssn,double wages,double hours) {
+		super(firstName, lastName, ssn);
+		// TODO Auto-generated constructor stub
+		
+	
+	}
+
+	@Override
+	public String toString() {
+		return "HourlyEmployee [wages=" + wages + ", hours=" + hours + "]";
+	}
+	
+	@Override
+	public double calculations() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	
+}

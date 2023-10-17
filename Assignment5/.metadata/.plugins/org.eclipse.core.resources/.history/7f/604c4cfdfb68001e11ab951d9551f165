@@ -1,0 +1,38 @@
+package com.company;
+
+public class SalariedEmployee extends Employee {
+	private double weeklySalary;
+
+	public SalariedEmployee(String firstName, String lastName, String ssn,double weeklySalary) {
+		super(firstName, lastName, ssn);
+		
+	}
+	
+
+	public double getWeeklySalary() {
+		return weeklySalary;
+	}
+
+
+	public void setWeeklySalary(double weeklySalary) {
+		this.weeklySalary = weeklySalary;
+	}
+	
+	@Override
+	public void accept() {
+		super.accept();
+		System.out.println("Enter Weekly Salary = ");
+	}
+
+	@Override
+	public String toString() {
+		return "SalariedEmployee [weeklySalary=" + weeklySalary + "]";
+	}
+	
+	@Override
+	public double calculations() {
+		
+		return weeklySalary;
+	}
+
+}

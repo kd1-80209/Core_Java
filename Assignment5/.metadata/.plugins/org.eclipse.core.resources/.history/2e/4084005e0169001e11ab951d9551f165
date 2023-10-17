@@ -1,0 +1,13 @@
+package com.company;
+
+public class Tester {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Employee e1;
+		e1 =new SalariedEmployee(su, su, ull, 0);
+		
+
+	}
+
+}

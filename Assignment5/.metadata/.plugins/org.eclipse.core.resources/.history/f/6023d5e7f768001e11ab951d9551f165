@@ -1,0 +1,31 @@
+package com.company;
+
+public class HourlyEmployee extends Employee{
+	private double wages;
+	private double hours;
+	
+	public HourlyEmployee(String firstName, String lastName, String ssn,double wages,double hours) {
+		super(firstName, lastName, ssn);
+		// TODO Auto-generated constructor stub
+		
+	
+	}
+
+	@Override
+	public String toString() {
+		return "HourlyEmployee [wages=" + wages + ", hours=" + hours + "]";
+	}
+	
+	@Override
+	public double calculations() {
+		// TODO Auto-generated method stub
+		if(hous<=40)
+			System.out.println
+			else if(hours>40)
+			{
+				40*wage+(hours-40)*wage*1.5
+			}
+		return 0;
+	}
+	
+}
