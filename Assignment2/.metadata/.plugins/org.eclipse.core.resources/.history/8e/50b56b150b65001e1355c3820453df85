@@ -1,0 +1,8 @@
+package com.sunbeaminfo.invoice;
+
+public class Invoice {
+	String partno;
+	String partdesc;
+	int 
+
+}

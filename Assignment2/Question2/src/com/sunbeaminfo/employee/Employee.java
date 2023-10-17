@@ -1,0 +1,70 @@
+package com.sunbeaminfo.employee;
+
+import java.util.Scanner;
+
+public class Employee {
+	String firstName;
+    String lastName;
+    double monthSalary;
+    
+    public Employee()
+    {
+    }
+    
+	public Employee(String firstName, String lastName, double monthlySalary) {
+		super();
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.monthSalary = monthlySalary;
+	}
+
+	public String getFirstName() {
+		return firstName;
+	}
+
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+
+	public String getLastName() {
+		return lastName;
+	}
+
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
+
+	public double getMonthlySalary() {
+		return monthSalary;
+	}
+
+	public void setMonthlySalary(double monthlySalary) {
+		if(monthSalary>0) {
+		this.monthSalary = monthlySalary;
+		}	
+	}
+	public void acceptData()
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter First Name = ");
+		firstName=sc.next();
+		
+		System.out.println("Enter Last Name = ");
+		lastName=sc.next();
+		
+		System.out.println("Enter Month Salary");
+		monthSalary=sc.nextDouble();
+	}
+	public void displayData() {
+		System.out.println("First Name = "+ firstName);
+		System.out.println("Last Name = "+ lastName);
+		System.out.println("Month Salary =+ monthSalary ");
+	}
+	public void calculateYearlySalary() {
+        System.out.println("Your Yearly Salary = "+monthSalary*12);
+    }
+	public void calculatrRaise() {
+		System.out.println("Your Raise"+monthSalary *1.10);
+	}
+    
+}

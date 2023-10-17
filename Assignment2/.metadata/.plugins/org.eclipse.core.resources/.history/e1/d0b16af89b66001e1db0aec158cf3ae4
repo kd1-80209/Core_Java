@@ -1,0 +1,18 @@
+package com.app.geometry;
+
+import java.util.Scanner;
+
+public class TestPoint {
+
+	public static void main(String[] args) {
+		double x,y;
+		String s;
+		System.out.println("Enter Coordinates for X-Axis ");
+		x=sc.nextDouble();
+		System.out.println("Enter Coordinates for Y-Axis ");
+		y=sc.nextDouble();
+		
+		
+	}
+
+}

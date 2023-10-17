@@ -1,0 +1,58 @@
+package com.sunbeaminfo.employee;
+
+public class Employee {
+	String firstName;
+    String lastName;
+    double monthSalary;
+    
+    public Employee()
+    {
+    }
+    
+	public Employee(String firstName, String lastName, double monthlySalary) {
+		super();
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.monthSalary = monthlySalary;
+	}
+
+	public String getFirstName() {
+		return firstName;
+	}
+
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+
+	public String getLastName() {
+		return lastName;
+	}
+
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
+
+	public double getMonthlySalary() {
+		return monthSalary;
+	}
+
+	public void setMonthlySalary(double monthlySalary) {
+		if(monthSalary>0) {
+		this.monthSalary = monthlySalary;
+		}	
+	}
+	void acceptData()
+	{
+		System.out.println("");
+	}
+	public double calculateYearlySalary() {
+        return monthSalary * 12;
+    }
+
+    public void applyRaise(double percentage) {
+        if (percentage > 0) {
+            monthSalary += (monthSalary * percentage / 100);
+        }
+    }
+    
+}

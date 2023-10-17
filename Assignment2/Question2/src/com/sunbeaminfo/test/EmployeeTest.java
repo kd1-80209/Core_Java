@@ -1,0 +1,14 @@
+package com.sunbeaminfo.test;
+import com.sunbeaminfo.employee.*;
+public class EmployeeTest {
+
+	public static void main(String[] args) {
+		Employee e1=new Employee();
+		e1.acceptData();
+		e1.displayData();
+		e1.calculateYearlySalary();
+		e1.calculatrRaise();
+
+	}
+
+}
