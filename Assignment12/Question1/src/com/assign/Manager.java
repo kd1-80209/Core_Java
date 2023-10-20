@@ -6,7 +6,6 @@ public class Manager implements Emp {
 
 	
 	public Manager(double basic_sal, double dearance_allow) {
-		super();
 		this.basic_sal = basic_sal;
 		this.dearance_allow = dearance_allow;
 	}

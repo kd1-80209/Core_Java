@@ -6,7 +6,7 @@ public class Labour implements Emp {
 
 	
 	public Labour(int hours, double rate) {
-		super();
+		
 		this.hours = hours;
 		this.rate = rate;
 	}

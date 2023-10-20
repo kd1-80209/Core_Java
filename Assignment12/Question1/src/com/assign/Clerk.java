@@ -6,7 +6,7 @@ public class Clerk implements Emp{
 	
 
 	public Clerk(double sal) {
-		super();
+
 		this.sal = sal;
 	}
 
